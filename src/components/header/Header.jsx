@@ -45,6 +45,12 @@ const Header = () => {
               </a>
             </li>
           </ul>
+
+          <i className='uil uil-times nav-close'></i>
+        </div>
+
+        <div className='nav-toggle'>
+          <i class="uil uil-apps"></i>
         </div>
       </nav>
     </header>
