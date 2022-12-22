@@ -34,9 +34,19 @@
 .home-subtitle {
     position: relative;
     font-size: var(--h3-font-size);
-    padding-right: 5.4rem;
+    padding-left: 5.4rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
+}
+
+.home-subtitle::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: var(--text-color);
+    left: 0;
+    top: 1rem;
 }
 
 .home-img {
