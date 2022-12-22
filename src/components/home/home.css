@@ -20,6 +20,11 @@
     color: var(--title-color-dark);
 }
 
+.home-title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
 .home-img {
     background: url(../../assets/img/profile.jpg);
     background-repeat: no-repeat;
