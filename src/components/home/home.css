@@ -146,7 +146,40 @@
     .home-img {
         width: 250px;
         height: 250px;
+        box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
+    }
+
+    .home-scroll {
+        margin-left: 7.5rem;
     }
 }
 
+@media screen and (max-width: 768px) {
+    .home-content {
+        grid-template-columns: 0.5fr 3fr;
+        padding-top: 3.5rem;
+    }
+
+    .home-img {
+        order: initial;
+        justify-self: initial;
+    }
+
+    .home-data
+    {
+        grid-column: 1/3;
+    }
+
+    .home-img {
+        box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
+        width: 200px;
+        height: 200px;
+    }
+
+    .home-scroll {
+        display: none;
+    }
+
+
+}
 /* 45:00  */
