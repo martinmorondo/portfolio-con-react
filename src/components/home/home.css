@@ -103,4 +103,50 @@
     }
 }
 
+.home-scroll-name {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+    margin-left: 2px;
+}
+
+.home-scroll-arrow {
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+
+/* BREAKPOINTS  */
+/* For large devices  */
+@media screen and (max-width:992px) {
+    .home-content {
+        grid-template-columns: 100px repeat(2, 1fr);
+        column-gap: 1.25rem;
+    }
+
+    .home-hand {
+        width: 26px;
+        height: 26px;
+    }
+
+    .home-subtititle {
+        padding-left: 3.75rem;
+        margin-bottom: var(--mb-1);
+    }
+
+    .home-subtititle::before {
+        width: 42px;
+        top: 0.8rem;
+    }
+
+    .home-description {
+        max-width: initial;
+        margin-bottom: var(--mb-2-5);
+    }
+
+    .home-img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
 /* 45:00  */
