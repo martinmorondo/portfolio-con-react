@@ -39,6 +39,8 @@ const ScrollDown = () => {
                   }}
                 ></path>
               </svg>
+              <span className='home-scroll-name'>Scroll Down</span>
+              <i class="uil uil-arrow-down home-scroll-arrow"></i>
         </a>
     </div>
   )
