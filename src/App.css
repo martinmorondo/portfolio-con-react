@@ -110,18 +110,18 @@ img {
   padding: 6rem 0 2rem;
 }
 
-.section--title {
+.section-title {
   font-size:  var(--h1-font-size);
   color: var(--title-color)
 }
 
-.section--subtitle {
+.section-subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
 
-.section--title, .section--subtitle {
+.section-title, .section-subtitle {
   text-align: center;
 }
 
