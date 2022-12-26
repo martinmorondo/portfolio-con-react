@@ -99,10 +99,11 @@
       .about-description {
         padding: 0;
       }
-      
     }
   
   /* For small devices  */
   @media screen and (max-width: 350px) {
-   
+    .about-info {
+      grid-template-columns: 2;
+    }
   }
