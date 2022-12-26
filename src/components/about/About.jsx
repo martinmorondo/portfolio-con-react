@@ -3,7 +3,7 @@ import './about.css';
 import AboutImg from '../../assets/img/about.jpg';
 import CV from '../../assets/img/John-Cv.pdf';
 import Info from './Info';
-
+// 1:10
 const About = () => {
   return (
     <section className='about section' id='about'>
