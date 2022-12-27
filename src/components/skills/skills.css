@@ -49,3 +49,35 @@
 .skills-level {
     font-size: var(--tiny-font-size);
 }
+
+/* BREAKPOINTS  */
+/* For large devices  */
+@media screen and (max-width: 992px) {
+    .skills-container {
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+    }
+  }
+  
+  /* For medium devices  */
+  @media screen and (max-width:576px) {
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-content {
+        padding: 1.5rem;
+    }
+  }
+  
+  /* For small devices  */
+  @media screen and (max-width: 350px) {  
+
+    .skills-box {
+        column-gap: 1.25rem;
+    }
+
+    .skills-name {
+        font-size: var(--small-font-size);
+    }
+  }
