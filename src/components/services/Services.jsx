@@ -1,5 +1,6 @@
 import React from 'react';
-// 1:34 
+import './services.css';
+
 const Services = () => {
   return (
     <section className='services section' id='services'>
@@ -18,7 +19,7 @@ const Services = () => {
             <span className='services-button'>View more<i className='uil uil-arrow-right services-button-icon'></i></span>
 
             <div className='services-modal'>
-                <div className='services.modal-content'>
+                <div className='services-modal-content'>
                     <i className='uil uil-times services-modal-close'> </i>
 
                     <h3 className='services-modal-title'>Product Designer</h3>
@@ -65,7 +66,7 @@ const Services = () => {
             <span className='services-button'>View more<i className='uil uil-arrow-right services-button-icon'></i></span>
 
             <div className='services-modal'>
-                <div className='services.modal-content'>
+                <div className='services-modal-content'>
                     <i className='uil uil-times services-modal-close'> </i>
 
                     <h3 className='services-modal-title'>UI/UX Designer</h3>
@@ -112,7 +113,7 @@ const Services = () => {
             <span className='services-button'>View more <i className='uil uil-arrow-right services-button-icon'></i></span>
 
             <div className='services-modal'>
-                <div className='services.modal-content'>
+                <div className='services-modal-content'>
                     <i className='uil uil-times services-modal-close'> </i>
 
                     <h3 className='services-modal-title'>Visual Designer</h3>
