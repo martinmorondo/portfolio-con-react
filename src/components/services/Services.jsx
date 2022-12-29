@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './services.css';
 
 const Services = () => {
+    const [toggleState, setToggleState] = useState(0);
+
+    const toggleTab = (index) => {
+        setToggleState(index);
+    }
   return (
     <section className='services section' id='services'>
          <h2 className='section-title'>Services</h2>
@@ -16,9 +21,9 @@ const Services = () => {
                 </h3>
             </div>
 
-            <span className='services-button'>View more<i className='uil uil-arrow-right services-button-icon'></i></span>
+            <span className='services-button' onClick={() => toggleTab(1)}>View more<i className='uil uil-arrow-right services-button-icon'></i></span>
 
-            <div className='services-modal'>
+            <div className={toggleState === 1 ? 'services-modal active-modal' : 'active-modal'}>
                 <div className='services-modal-content'>
                     <i className='uil uil-times services-modal-close'> </i>
 
