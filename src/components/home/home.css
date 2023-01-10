@@ -1,3 +1,9 @@
+.home {
+    height: 100vh;
+    align-items: center;
+}
+
+
 .home-container {
     row-gap: 7rem;
 }
@@ -6,7 +12,13 @@
     grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
     column-gap: 2rem;
-    align-items: center;
+    /* margin: 0 auto; */
+    padding: 4rem;
+    border-radius: 50px; 
+    max-width: 350px;
+    opacity: 0.7;
+    z-index: 10;
+    top: 70px;
 }
 
 .home-social {
@@ -59,7 +71,7 @@
 }
 
 .home-img {
-    background: url(../../assets/img/profile.jpg);
+    background: url(../../assets/img/foto-de-perfil.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -191,7 +203,4 @@
             height: 22px;
         }
     }
-
-
 }
-/* 1:00:00  */

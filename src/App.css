@@ -77,7 +77,7 @@ body, button, input, textarea {
 }
 
 body {
-  background-color: var(--body-color);
+  background-color: #1e2326;
   color: var(--text-color)
 }
 

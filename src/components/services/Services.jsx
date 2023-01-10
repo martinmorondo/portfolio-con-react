@@ -21,11 +21,11 @@ const Services = () => {
                 </h3>
             </div>
 
-            <span className='services-button' onClick={() => toggleTab(1)}>View more<i className='uil uil-arrow-right services-button-icon'></i></span>
+            {/* <span className='services-button' onClick={() => toggleTab(1)}>View more<i className='uil uil-arrow-right services-button-icon'></i></span> */}
 
             <div className={toggleState === 1 ? 'services-modal active-modal' : 'active-modal'}>
                 <div className='services-modal-content'>
-                    <i className='uil uil-times services-modal-close'> </i>
+                    <i onClick={() => toggleTab(0)} className='uil uil-times services-modal-close'> </i>
 
                     <h3 className='services-modal-title'>Product Designer</h3>
                     <p className='services-modal-description'>Service with more than .....</p>
@@ -68,7 +68,7 @@ const Services = () => {
                 </h3>
             </div>
 
-            <span className='services-button'>View more<i className='uil uil-arrow-right services-button-icon'></i></span>
+            {/* <span className='services-button'>View more<i className='uil uil-arrow-right services-button-icon'></i></span> */}
 
             <div className='services-modal'>
                 <div className='services-modal-content'>
@@ -115,7 +115,7 @@ const Services = () => {
                 </h3>
             </div>
 
-            <span className='services-button'>View more <i className='uil uil-arrow-right services-button-icon'></i></span>
+            {/* <span className='services-button'>View more <i className='uil uil-arrow-right services-button-icon'></i></span> */}
 
             <div className='services-modal'>
                 <div className='services-modal-content'>
