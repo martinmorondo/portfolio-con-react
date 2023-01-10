@@ -9,7 +9,7 @@
 }
 
 .home-content {
-    grid-template-columns: 116px repeat(2, 1fr);
+    grid-template-columns: 200px repeat(2, 1fr);
     padding-top: 5.5rem;
     column-gap: 2rem;
     /* margin: 0 auto; */
@@ -28,12 +28,15 @@
 }
 
 .home-social-icon {
-    font-size: 1.25rem;
-    color: var(--title-color);
+    font-size: 1.38rem;
+    color: gold;
+    font-weight: bold;
+    transition: .3s;
 }
 
 .home-social-icon:hover {
-    color: var(--title-color-dark);
+    color: greenyellow;
+    transform: scale(1.1);
 }
 
 .home-title {

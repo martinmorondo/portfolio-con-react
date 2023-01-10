@@ -4,7 +4,6 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #1e2326;
 }
 
 .nav {
@@ -111,6 +110,7 @@
     .nav-toggle {
         font-size: 1.1rem;
         cursor: pointer;
+        color: #e29219;
     }
 
     .nav-icon,

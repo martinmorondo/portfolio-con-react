@@ -77,7 +77,8 @@ body, button, input, textarea {
 }
 
 body {
-  background-color: #1e2326;
+  /* background-color: #1e2326; */
+  background-image: radial-gradient(circle at 74.18% 116.45%, #373937 0, #2c2930 16.67%, #1e1929 33.33%, #0e0423 50%, #00001e 66.67%, #00001b 83.33%, #000017 100%);
   color: var(--text-color)
 }
 
